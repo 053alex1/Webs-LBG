@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>BEST Valencia Motivation Weekend</title>
+		<!-- Description, Keywords and Author -->
+		<meta name="description" content="Your description">
+		<meta name="keywords" content="Your,Keywords">
+		<meta name="author" content="HimanshuGupta">
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		
+		<!-- Styles -->
+		<!-- Bootstrap CSS -->
+		<link href="css/bootstrap.min.css" rel="stylesheet">	
+		<!-- Animate CSS -->
+		<link href="css/animate.min.css" rel="stylesheet">
+		<!-- Basic stylesheet -->
+		<link rel="stylesheet" href="css/owl.carousel.css">
+		<!-- Font awesome CSS -->
+		<link href="css/font-awesome.min.css" rel="stylesheet">		
+		<!-- Custom CSS -->
+		<link href="css/style.css" rel="stylesheet">
+		<link href="css/style-color.css" rel="stylesheet">
+		
+		<!-- Favicon -->
+		<link rel="shortcut icon" href="img/logo/favicon.png">
+	</head>
+	
+	<body>
+		
+		<!-- modal for booking ticket form -->
+		<div class="modal fade" id="bookTicket" tabindex="-1" role="dialog" aria-labelledby="BookTicket">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+						<h4 class="modal-title" id="myModalLabel">Name of The Event &nbsp; <small><span class="label label-success">Available</span> &nbsp; <span class="label label-danger">Not Available</span></small></h4>
+					</div>
+					<!-- form for events ticket booking -->
+					<form>
+						<div class="modal-body">
+							<div class="form-group">
+								<label for="exampleInputEmail1">Email</label>
+								<input type="email" class="form-control" id="exampleInputEmail1" placeholder="example@mail.com">
+							</div>
+							<div class="form-group">
+								<label for="exampleInputContact">Contact</label>
+								<input type="text" class="form-control" id="exampleInputContact" placeholder="+91 55 5555 5555">
+							</div>
+							<div class="form-group">
+								<label for="exampleInputSeats">Number of Tickets</label>
+								<select class="form-control" id="exampleInputSeats">
+									<option>1</option>
+									<option>2</option>
+									<option>3</option>
+									<option>4</option>
+									<option>5</option>
+								</select>
+							</div>
+							<div class="checkbox">
+								<label>
+									<input type="checkbox"> I accept the Terms of Service
+								</label>
+							</div>
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+							<!-- link to payment gatway here -->
+							<button type="button" class="btn btn-primary">Book Now</button>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+		
+		<!-- wrapper -->
+		<div class="wrapper" id="home">
+		
+			<!-- header area -->
+			<header>
+				<!-- primary menu -->
+				<nav class="navbar navbar-fixed-top navbar-default">
+					<div class="container">
+						<!-- Brand and toggle get grouped for better mobile display -->
+						<div class="navbar-header">
+							<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+								<span class="sr-only">Toggle navigation</span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+							</button>
+							<!-- logo area -->
+							<a class="navbar-brand" href="#home">
+								<!-- logo image -->
+								<img class="img-responsive" src="img/logo/logo.png" alt="" />
+							</a>
+						</div>
+
+						<!-- Collect the nav links, forms, and other content for toggling -->
+						<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+							<ul class="nav navbar-nav navbar-right">
+								<li><a href="#horario">Horario</a></li>
+								<li><a href="#inscribete">Inscribete</a></li>
+							</ul>
+						</div><!-- /.navbar-collapse -->
+					</div><!-- /.container-fluid -->
+				</nav>
+			</header>
+			<!--/ header end -->
+			
+			<!-- banner area -->
+			<div class="banner">
+				<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+					<!-- Wrapper for slides -->
+					<div class="carousel-inner" role="listbox">
+						<div class="item active">
+							<img src="img/MW/MW_1.jpg" alt="...">
+							<div class="container">
+								<!-- banner caption -->
+								<div class="carousel-caption slide-one">
+									<!-- heading -->
+									<h2 class="animated fadeInLeftBig">Asiste a nuestro Motivation Weekend!</h2>
+									<!-- paragraph -->
+									<!--<h3 class="animated fadeInRightBig">Find More Innovative &amp; Creative Music Albums.</h3>-->
+									<!-- button -->
+									<a href="https://docs.google.com/forms/d/e/1FAIpQLSfLm_3p4lqL5iI5QLXjAzk2rim5MSUvChLR7q3JCbkIPoyHRA/viewform?gxids=7628" class="animated fadeIn btn btn-theme">Inscribete!</a>
+								</div>
+							</div>
+						</div>
+						<div class="item">
+							<img src="img/MW/MW_2.jpg" alt="...">
+							<div class="container">
+								<!-- banner caption -->
+								<div class="carousel-caption slide-two">
+									<!-- heading -->
+									<h2 class="animated fadeInLeftBig">Participa</h2>
+									<!-- paragraph -->
+									<h3 class="animated fadeInRightBig">Aprende y desconecta con nosotros!!</h3>
+									<!-- button -->
+									<a href="https://docs.google.com/forms/d/e/1FAIpQLSfLm_3p4lqL5iI5QLXjAzk2rim5MSUvChLR7q3JCbkIPoyHRA/viewform?gxids=7628" class="animated fadeIn btn btn-theme">Apuntate!</a>
+								</div>
+							</div>
+						</div>
+						<!--<div class="item">
+							<img src="img/MW/RM.jpg" alt="...">
+							<div class="container">
+								<-- banner caption --
+								<div class="carousel-caption slide-three">
+									<!-- heading --
+									<h2 class="animated fadeInLeftBig"><i class="fa fa-headphones"></i> Listen It...</h2>
+									<!-- paragraph --
+									<h3 class="animated fadeInRightBig">Lorem ipsum dolor sit amet, consectetur elit.</h3>
+									<!-- button --
+									<a href="#" class="animated fadeIn btn btn-theme">Listen Now</a>
+								</div>
+							</div>
+						</div>-->
+					</div>
+
+					<!-- Controls -->
+					<a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+						<span class="fa fa-arrow-left" aria-hidden="true"></span>
+					</a>
+					<a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+						<span class="fa fa-arrow-right" aria-hidden="true"></span>
+					</a>
+				</div>
+			</div>
+			<!--/ banner end -->
+			
+			<!-- block for animate navigation menu -->
+			<div class="nav-animate"></div>
+
+			<!-- work with us -->
+			<div class="work-with-us pad" id="horario">
+				<div class="container">
+					<!-- default heading -->
+					<div class="default-heading">
+						<!-- heading -->
+						<h2>Horario</h2>
+					</div>
+					<!-- why work with us content -->
+					<div class="why-content">
+						<!-- paragraph -->
+						<p class="why-message">Asiste a nuestros talleres de forma gratuita.</p>
+						<div class="row">
+							<div class="col-md-3 col-sm-6">
+								<!-- why work with us item -->
+								<div class="why-item  delay-one">
+									<span class="why-title">Habla en público</span>
+									<span class="why-subtitle">Sábado 20 11:00</span>
+									<!-- paragraph -->
+									<p>Hablar en públio puede parecer muy sencillo ya que llevamos toda la vida haciéndolo. pero en cambio es con lo que más nos atascamos. ¿Y es que alguna vez te han explicado cómo hablar en público? En esta sesión podrás aprener y practicar todos los aspectos que intervienen cuando hablamos en público. No es sólo lo que decimos, si no cómo lo decimos.</p>
+								</div>
+							</div>
+							<div class="col-md-3 col-sm-6">
+								<!-- why work with us item -->
+								<div class="why-item  delay-four">
+									<span class="why-title">Aprende Excel</span>
+									<span class="why-subtitle">Sábado 20 12:30</span>
+									<!-- paragraph -->
+									<p>Las hojas de calcula Excel se usan para todo a día de hoy. Aprende más a como explotar todo su rendimiento y sacarle el máximo partido.</p>
+								</div>
+							</div>
+							<div class="col-md-3 col-sm-6">
+								<!-- why work with us item -->
+								<div class="why-item  delay-two">
+									<span class="why-title">Organización personal</span>
+									<span class="why-subtitle">Sábado 20 18:00</span>
+									<!-- paragraph -->
+									<p>Piensas que siempre tienes muchas cosas que hacer y poco tiempo para ti? Trata de cambiar eso a través de nuestro taller de organización personal, donde se hablarán de herramientas y técnicas para tener todas tus tareas a la vista y así poder disfrutar de la procastinació a gusto.</p>
+								</div>
+							</div>
+							<div class="col-md-3 col-sm-6">
+								<!-- why work with us item -->
+								<div class="why-item  delay-three">
+									<span class="why-title">Innovación y creatividad</span>
+									<span class="why-subtitle">Domingo 21 16:00</span>
+									<!-- paragraph -->
+									<p>El saber innovar o el ser creativo son actitudes con un valor incalculable, pero ¿cómo quieren que innovemos y seamos creativos si nunca nos han dado herramientas para serlo? En esta sesión podrás aprender qué se esconde detrás de la creatividad. Y conocer e implementar las diferentes fases que hay que seguir para pasar de la creatividad a la innovación.</p>
+								</div>
+							</div>
+						</div>
+						<!-- apply button -->
+						<div class="apply-btn">
+							<!-- button line -->
+							<a class="btn btn-lg btn-theme" href="https://docs.google.com/forms/d/e/1FAIpQLSfLm_3p4lqL5iI5QLXjAzk2rim5MSUvChLR7q3JCbkIPoyHRA/viewform?gxids=7628">Inscríbete</a>
+						</div>
+						<p class = "why-message">Tú también puedes asistir a nuestras actividades sociales!!</p>
+						<p class = "why-little-message">Consulta <a href = "https://drive.google.com/file/d/14RYBi4-S5Uf0mzLGHK3car-3D1z_X5uc/view?usp=sharing" target = "_blank">aquí </a>nuestro horario completo.</p>
+					</div>
+				</div>
+			</div>
+			<!--/ end work with us -->
+
+			<!-- about -->
+			<div class="about" id="team">
+				<div class="container">
+					<!-- default heading -->
+					<div class="default-heading-v2">
+						<!-- heading -->
+						<h2>¿Qué ofrecemos?</h2>
+					</div>
+					<!-- about what we are like content -->
+					<div class="about-what-we">
+						<div class="row">
+							<div class="col-md-4 col-sm-4">
+								<div class="what-we-item ">
+									<!-- heading with icon -->
+									<h3><i class="fa fa-heartbeat"></i> Empowered Diversity</h3>
+									<!-- paragraph -->
+									<p>La visión de BEST es potenciar la diversidad para ayudar a los estudiantes a desarrollar sus capacidades en una Europa multicultural, siempre de una forma respetuosa y responsable.</p>
+								</div>
+							</div>
+							<div class="col-md-4 col-sm-4">
+								<div class="what-we-item ">
+									<!-- heading with icon -->
+									<h3><i class="fa fa-hand-o-up"></i> Developing Students</h3>
+									<!-- paragraph -->
+									<p>La misión de BEST es ayudar a los estudiantes a tener una visión internacional y de las culturas europeas. Ofrece oportunidades para potenciar su desarrollo personal y para ayudarles a encontrar su máximo potencial.</p>
+								</div>
+							</div>
+							<div class="col-md-4 col-sm-4">
+								<div class="what-we-item ">
+									<!-- heading with icon -->
+									<h3><i class="fa fa-map-marker"></i> BEST spirit</h3>
+									<!-- paragraph -->
+									<p>Los cinco valores que mueven a BEST son: Flexibilidad, Amistad, Diversión, Mejora y Aprendizaje. Están siempre presentes en todas nuestras actividades y nos sirven de inspiración para perseguir nuestra visión.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			
+			<!-- contact -->
+			<div class="contact pad" id="contact">
+				<div class="container">
+					<!-- default heading -->
+					<div class="default-heading-v2">
+						<!-- heading -->
+						<h2>Contacta con nosotros</h2>
+					</div>
+					<div class="row">	
+						<div class="col-md-4 col-sm-4">
+							<!-- contact item -->
+							<div class="contact-item ">
+								<!-- big icon -->
+								<i class="fa fa-map-marker"></i>
+								<!-- contact details  -->
+								<span class="contact-details">Sala de Asociaciones, Camino de Vera, s/n Edificio 4K, 46022 Valencia</span>
+							</div>
+						</div>
+						<div class="col-md-4 col-sm-4">
+							<!-- contact item -->
+							<div class="contact-item ">
+								<!-- big icon -->
+								<i class="fa fa-envelope-o"></i>
+								<!-- contact details  -->
+								<span class="contact-details">contacto@bestvalencia.org</span>
+							</div>
+						</div>
+					</div>
+					
+			<!-- footer -->
+			<footer>
+				<div class="container">
+					<!-- social media links -->
+					<div class="social">
+						<a class="h-facebook"  href="https://www.facebook.com/best.valencia.581"><i class="fa fa-facebook"></i></a>
+						<a class="h-linkedin"  href="https://www.linkedin.com/company/best-valencia/"><i class="fa fa-linkedin"></i></a>
+						<a class="h-instagram" href="https://www.instagram.com/bestvalenciaupv/"><i class="fa fa-instagram"></i></a>
+					</div>
+					<!-- copy right -->
+					<p class="copy-right">&copy; copyright 2021, All rights are reserved.</p>
+				</div>
+			</footer>
+			<!-- footer end -->
+			
+			<!-- Scroll to top -->
+			<span class="totop"><a href="#"><i class="fa fa-chevron-up"></i></a></span> 
+			
+		</div>
+		
+		<!-- Javascript files -->
+		<!-- jQuery -->
+		<script src="js/jquery.js"></script>
+		<!-- Bootstrap JS -->
+		<script src="js/bootstrap.min.js"></script>
+		<!-- WayPoints JS -->
+		<script src="js/waypoints.min.js"></script>
+		<!-- Include js plugin -->
+		<script src="js/owl.carousel.min.js"></script>
+		<!-- One Page Nav -->
+		<script src="js/jquery.nav.js"></script>
+		<!-- Respond JS for IE8 -->
+		<script src="js/respond.min.js"></script>
+		<!-- HTML5 Support for IE -->
+		<script src="js/html5shiv.js"></script>
+		<!-- Custom JS -->
+		<script src="js/custom.js"></script>
+	</body>	
+</html>
